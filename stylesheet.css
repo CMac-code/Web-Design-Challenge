@@ -1,36 +1,48 @@
-h1{
-    position: absolute;
-    top: 10%;
-    left:5%;
-    font-size: 200px;
-    font-size: 4em;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: darkcyan;
-    font-weight: bolder;
-}
-h2{
-    position: absolute;
-    top:30%;
-    left:5%
-}
-h3{
-    position: relative;
-    top: 40px;
-    left: 120px;
-}
 #bg{
-    z-index: auto;
     position: fixed;
+    z-index: -50;
     top: 0;
     left: 0;
-
     min-width: 100%;
     min-height: 100%;
 }
-.box-1 {
-    z-index: auto;
-    top: 20%;
+h1{
+    position:absolute;
+    width: auto;
+    top:5%;
     left: 5%;
-    background-color: rgb(221, 243, 221);
-    padding: 10%;
+}
+.navbar{
+    max-height: 50px;
+    font-size: 20px;
+}
+a.navbar-brand{
+    font-size: 30px;
+}
+.navbar-expand-lg{
+    display:flex;
+    flex-basis: auto;
+
+}
+h2{
+    position: absolute;
+    top: 25%;
+    left: 3%;
+    background-color: white;
+}
+h4{
+    position: absolute;
+    top: 25%;
+    left:64%;
+    background-color: white;
+}
+.col-sm-12{
+    position: absolute;
+    top: 25%;
+    left: 5%;
+}
+h5{
+    position: absolute;
+    top:25%;
+    left:5%;
 }
