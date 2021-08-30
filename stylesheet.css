@@ -46,3 +46,21 @@ h5{
     top:25%;
     left:5%;
 }
+.card-title{
+    font-size: 30px;
+    color: darkcyan;
+    text-align: center;
+}
+.col-sm-6{
+    max-width: 600px;
+}
+.btn-primary{
+    background-color: darkcyan;
+    border: darkcyan;
+}
+@media(max-width:992px){
+    .btn-primary{
+        background-color: black;
+        display: inline-block;
+    }
+}
